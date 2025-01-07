@@ -62,11 +62,17 @@
   height: 50px;
   background-color: lightgray;
 }
+.grid-main{
+  width: 100%;
+  height: auto;
+  padding: 10px 100px 10px 100px ;
+  display: inline-block;
+
+}
 .grid {
   width: 100%;
   height: auto;
   display: inline-block;
-  margin: 0 0 0 100px;
 }
 .grid-item {
   float: left;
