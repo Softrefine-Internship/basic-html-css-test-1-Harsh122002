@@ -20,7 +20,7 @@
 }
 
 .double-bar {
-  margin: 20px 20% 20px 20%;
+  margin: 24px 20% 23px 20%;
 
   height: 50px;
   background-color: lightgray;
@@ -47,52 +47,52 @@
   float: right;
   background-color: lightgray;
 }
-.secbar {
-  margin: 20px 15% 10px 15%;
+.secbar
+ {
+  margin: 24px 15% 20px 15%;
 
   height: 50px;
   background-color: lightgray;
 }
 .secbar-2 {
-  margin: 20px 13% 20px 13%;
+  margin: 3px 13% 20px 13%;
 
   height: 50px;
   background-color: lightgray;
 }
-.grid-main{
+.float-main {
   width: 100%;
   height: auto;
-  padding: 0 100px 10px 100px ;
+  padding: 0 100px 0px 100px;
   display: inline-block;
-
 }
-.grid {
-  width: 100%;
+.float {
+  width: 100%;  
   height: auto;
   margin: 0 3% 0 1%;
   display: inline-block;
 }
-.grid-item {
+.float-item {
   float: left;
   width: 300px;
   height: 300px;
-  margin: 1%;
+  margin: 10px;
   background-color: lightgray;
 }
 .cards-section {
   width: 100%;
   height: auto;
-  padding: 100px 160px;
-  margin: 30px 0 30px 0;
+  padding: 100px 100px;
+  margin: 0px 0 30px 0;
   display: inline-block;
   background-color: lightgray;
 }
 
 .card {
   float: left;
-  width: 350px;
+  width: 380px;
   height: 600px;
-  margin: 2%;
+  margin: 23px;
   padding: 30px;
   display: block;
   background-color: white;
@@ -126,59 +126,58 @@
   height: 50px;
   background-color: lightgray;
 }
-.sec-2 ,.sec-3, .sec-4  {
+.sec-2,
+.sec-3,
+.sec-4 {
   margin: 0 12% 15px 12%;
 
   height: 50px;
   background-color: lightgray;
 }
-.sec-5  {
+.sec-5 {
   margin: 0 12% 25px 12%;
 
   height: 200px;
   background-color: lightgray;
-
 }
 .sec-6 {
   margin: 0 12% 20px 12%;
 
   height: 60px;
   overflow-y: hidden;
-  
-  background-color: white;
 
+  background-color: white;
 }
-.subsec-6{
+.subsec-6 {
   float: left;
   width: 48%;
   height: 48px;
-  background-color:lightgrey;
+  background-color: lightgrey;
 }
-.subsec-7{
+.subsec-7 {
   float: right;
   width: 48%;
   height: 48px;
-  background-color:lightgrey;
-
+  background-color: lightgrey;
 }
-.footer{
+.footer {
   width: 100%;
-  height: 100px;
-  margin:20px 0 2px 0;
+  height: 150px;
+  margin: 20px 0 2px 0;
   overflow-y: hidden;
 
   padding: 20px;
   background-color: lightgrey;
 }
-.subfooter-1{
+.subfooter-1 {
   float: left;
-  width:49.5%;
-  height: 65px;
+  width: 49.5%;
+  height: 112px;
   background-color: white;
 }
-.subfooter-2{
+.subfooter-2 {
   float: right;
-  width:49.5%;
-  height: 65px;
+  width: 49.5%;
+  height: 112px;
   background-color: white;
 }
